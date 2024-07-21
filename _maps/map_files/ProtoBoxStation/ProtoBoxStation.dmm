@@ -22079,10 +22079,9 @@
 /turf/open/floor/iron/dark,
 /area/station/cargo/office)
 "buF" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/visible,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "buG" = (
@@ -25646,9 +25645,10 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
 "bIH" = (
-/obj/machinery/space_heater,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/binary/pump/on{
+	name = "Waste In"
+	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "bIL" = (
@@ -25882,7 +25882,6 @@
 "bJF" = (
 /obj/structure/reagent_dispensers/fueltank/large,
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "bJH" = (
@@ -28057,6 +28056,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
 "bRG" = (
@@ -33208,6 +33208,7 @@
 	dir = 9
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
 "cqu" = (
@@ -37199,6 +37200,7 @@
 	dir = 9
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
 "dHA" = (
@@ -37726,6 +37728,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/purple/visible{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
 "eeh" = (
@@ -41357,7 +41360,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/obj/machinery/plumbing/growing_vat,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/science/xenobiology)
@@ -42207,9 +42209,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "idX" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/layer_manifold/supply/visible,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
 "iex" = (
@@ -47252,6 +47252,7 @@
 "mAP" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "mBv" = (
@@ -47818,6 +47819,10 @@
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
 	dir = 6
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
 "nfd" = (
@@ -48733,6 +48738,7 @@
 	dir = 6
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
 "nSJ" = (
@@ -50443,6 +50449,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "psh" = (
@@ -57489,6 +57496,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/security/lockers)
+"vHJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "vHN" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -58544,6 +58558,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "wGt" = (
@@ -92604,7 +92619,7 @@ bLO
 bLO
 nYt
 bMP
-xFQ
+vHJ
 afU
 afU
 tms
@@ -92863,7 +92878,7 @@ yjJ
 pwk
 mAP
 buF
-afU
+bIH
 wFP
 afU
 qHS
@@ -93118,7 +93133,7 @@ mXg
 mXg
 nYt
 bMR
-bIH
+bMR
 bJF
 bQr
 prW
